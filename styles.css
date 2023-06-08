@@ -1,49 +1,76 @@
-body{
+:root {
+    --recebida: rgb(66, 85, 102);
+    --enviada: rgb(34, 155, 81);
+}
+body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.chatbox{
-   
+.chatbox {
     background-color: rgb(29, 29, 29);
     width: 500px;
-    height: 500px;
     border-radius: 15px;
     padding: 10px;
-
-}
-h1{
-    color: aliceblue;
 }
 
-.topchat{
+
+.topchat {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.svg-topchat {
+    fill: white;
+    padding-right: 15px;
+    height: 23px;
+}
 
-.messenge{
+h1 {
+    color: aliceblue;
+    margin: 2px;
+}
+
+.messenge {
     display: flex;
     align-items: center;
     text-align: center;
     color: white;
     border-radius: 12px;
-    background-color: rgb(86, 113, 138);
+    background-color: var(--recebida);
     justify-content: space-between;
     width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 5px;
+    margin: 5px;
 }
 
-.view-svg{
+.view-svg {
     display: flex;
+    margin-top: auto;
+    padding-bottom: 5px;
+    padding-inline-start: inherit;
+    fill: #4ea9fd;
 }
-.messenge.enviada{
+
+.messenge.enviada {
     margin-left: auto;
     color: white;
-    background-color: rgb(62, 169, 133);
+    background-color: var(--enviada);
     border-radius: 5.8px;
+    
+}
+
+.view-svg-sent {
+    display: flex;
+    margin-top: auto;
+    padding-bottom: 5px;
+    padding-inline-start: inherit;
+    fill: #b0b0b0;
+}
+
+#image{
+    margin: 8px;
 }
