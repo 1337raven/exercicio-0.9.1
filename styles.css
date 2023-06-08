@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chatbox{
+   
+    background-color: rgb(29, 29, 29);
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+h1{
+    color: aliceblue;
+}
+
+.topchat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.messenge{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    background-color: rgb(86, 113, 138);
+    justify-content: space-between;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.view-svg{
+    display: flex;
+}
+.messenge.enviada{
+    margin-left: auto;
+    color: white;
+    background-color: rgb(62, 169, 133);
+    border-radius: 5.8px;
+}
